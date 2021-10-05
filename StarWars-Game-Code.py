@@ -62,7 +62,7 @@ pen.write("Score: 0", False, align = "center", font = ("Arial", 24, "normal"))
 chattans = []
 
 for _ in range(5):   
-    chattan = Ankur()
+    chattan = SharMAX()
     chattan.color("brown")
     chattan.shape("arrow")
 
@@ -72,7 +72,7 @@ for _ in range(5):
     distance = random.randint(300, 400)
     chattan.setheading(taauko)
     chattan.fd(distance)
-    chattan.setheading(ankur1(player, chattan))
+    chattan.setheading(SharMAX1(player, chattan))
     chattans.append(chattan)
 
 
@@ -121,7 +121,7 @@ while True:
                 distance = random.randint(600, 800)
                 chattan.setheading(taauko)
                 chattan.fd(distance)
-                chattan.setheading(ankur1(player, chattan))
+                chattan.setheading(SharMAX(player, chattan))
                 chattan.speed += 0.01
                 
                 missile.goto(600, 600)
