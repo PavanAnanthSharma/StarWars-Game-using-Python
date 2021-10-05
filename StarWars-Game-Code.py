@@ -137,7 +137,7 @@ while True:
             distance = random.randint(600, 800)
             chattan.setheading(taauko)
             chattan.fd(distance)
-            chattan.setheading(ankur1(player, chattan))
+            chattan.setheading(SharMAX(player, chattan))
             chattan.speed += 0.005
             sakkyo = True
             player.score -= 30
