@@ -132,7 +132,7 @@ chattan.speed  = random.randint(2, 3)/50
     distance = random.randint(300, 400)
     chattan.setheading(taauko)
     chattan.fd(distance)
-    chattan.setheading(ankur1(player, chattan))
+    chattan.setheading(SharMAX(player, chattan))
     chattans.append(chattan)
 ```
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
