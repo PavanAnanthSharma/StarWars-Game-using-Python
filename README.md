@@ -46,6 +46,7 @@ window.register_shape("chattan", asVertex)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 >Step 2:
+>
 Inherit the “Turtle” from the “turtle” module into a class named “SharMAX”. Initialize with the function __init__(self). Then, set the initializer as the turtle. Likewise, set the speed to 0 and pick the pen up as we are not ready to draw.
 
 ``` python
@@ -57,7 +58,7 @@ class SharMAX(turtle.Turtle):
         self.penup()
 ```
 
-Coming out of the function, create a function(ankur1) with the parameters “t1” and “t2”. Inside this function, set the current x coordinate into the variable x1 and the y coordinate into y1. Then, do the same with the t2 and “x2”, “y2”. Similarly, set the arctangent of “y1-y2” and “x1-x2” into “taauko” with the math module. Again, multiply the “taauko” with “180.0 / 3.14159” and return “taauko”.
+Coming out of the function, create a function(SharMAX1) with the parameters “t1” and “t2”. Inside this function, set the current x coordinate into the variable x1 and the y coordinate into y1. Then, do the same with the t2 and “x2”, “y2”. Similarly, set the arctangent of “y1-y2” and “x1-x2” into “taauko” with the math module. Again, multiply the “taauko” with “180.0 / 3.14159” and return “taauko”.
 
 ``` python
 def SharMAX1(t1, t2):
@@ -215,7 +216,7 @@ for missile in missiles:
                 chattan.fd(distance)
 ```
 
-* Again, set the heading of the “chattan” turtle as the function ankur1() and send the parameters “player1, chattan”. Likewise, change the speed of the “chattan” where 0.01 will be added as in the code below.
+* Again, set the heading of the “chattan” turtle as the function SharMAX1() and send the parameters “player1, chattan”. Likewise, change the speed of the “chattan” where 0.01 will be added as in the code below.
 
 ``` python
     chattan.setheading(SharMAX1(player, chattan))
